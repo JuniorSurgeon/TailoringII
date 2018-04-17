@@ -1,4 +1,4 @@
-/*CSS PORTFOLIO*/
+ /*CSS PORTFOLIO*/
 
 <style > div 
 {
@@ -59,6 +59,17 @@ li a:hover {
 body {
 	/*	background-image: url(http://www.photos-public-domain.com/wp-content/uploads/2011/04/natural-tan-canvas-fabric-texture.jpg);*/
 	background-image: url(http://cdn01.wallconvert.com/_media/wallpapers_1920x1080/1/4/pin-stripe-fabric-36981.jpg);
+	font-family: 'Lato', sans-serif;
+	min-height: 400px;
+	margin-bottom: 60px;
+	color: white;
+	clear: both;
+	height: 100%;
+	overflow: scroll;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 

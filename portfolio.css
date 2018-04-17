@@ -1,0 +1,143 @@
+/*CSS PORTFOLIO*/
+
+<style > div 
+{
+	border: 1px solid black;
+	margin-top: 200px;
+	margin-bottom: 300px;
+	margin-right: 150px;
+	margin-left: 10px;
+}
+
+#nav {
+	width: 700px;
+	margin: 0 auto;
+	list-style: none;
+}
+
+	#nav li {
+		float: left;
+	}
+
+	#nav a {
+		display: block;
+		text-align: right;
+		width: 80px; /* fixed width */
+		text-decoration: none;
+	}
+
+li {
+	float: left;
+	color: white;
+}
+
+	li a {
+		display: block;
+		color: /*#000*/white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+		/* Change the link color to #111 (black) on hover *
+li a:hover {
+    background-color: #111;
+}
+*/
+		li a.active {
+			background-color: #4CAF50;
+			color: darkslategrey;
+		}
+
+		li a:hover:not(.active) {
+			opacity: 1;
+			filter: alpha(opacity=50) background-color: #555;
+			color: darkslategrey;
+		}
+
+
+body {
+	/*	background-image: url(http://www.photos-public-domain.com/wp-content/uploads/2011/04/natural-tan-canvas-fabric-texture.jpg);*/
+	background-image: url(http://cdn01.wallconvert.com/_media/wallpapers_1920x1080/1/4/pin-stripe-fabric-36981.jpg);
+	font-family: 'Lato', sans-serif;
+	min-height: 400px;
+	margin-bottom: 60px;
+	color: white;
+	clear: both;
+	height: 100%;
+	overflow: scroll;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+@font-face {
+	font-family: 'Berkshire Swash', cursive;
+	src: url(https://fonts.google.com/);
+	font-weight: 400;
+}
+
+/* Portfolio Grid */
+.portfolio {
+	display: grid;
+	grid-template: auto auto auto / 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+}
+
+	.portfolio img {
+		width: 100%;
+		height: 100%;
+		padding: 10px 10px 10px 10px;
+	}
+.portfolio2 {
+	grid-column-start:unset;
+	display: grid;
+	grid-template: auto auto auto / 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+}
+
+	.portfolio2 img {
+		width: 100%;
+		height: 100%;
+		padding: 10px 10px 10px 10px;
+	}
+
+/* FAQ */
+.faq {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 75%;
+	/*text-align:center;*/
+}
+
+
+.headerText {
+	text-align: center;
+	padding-top: 75px;
+}
+
+h2 {
+	text-align: center;
+}
+/* Pics on FAQ */
+.beforeAfter {
+	display: inline-grid;
+	grid-template: auto auto auto / 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 0px;
+	margin-left: 700px;
+}
+
+	.beforeAfter img {
+		width: 100%;
+		padding: 10px 10px 10px 10px;
+	}
+
+
+</style > e >
